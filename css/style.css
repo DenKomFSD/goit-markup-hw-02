@@ -1,5 +1,9 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Raleway' sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02;
     color: #434455;
     background-color: #ffff;
 }
@@ -12,6 +16,111 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto', sans-serif;
 }
 
+button {
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
+    color: #434455;
+}
+
+.main-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0.02;
+    line-height: 60px;
+}
+
+.order-cta {
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    color: #ffff;
+    background: #4D5AE5;
+}
+
+.order-cta:focus,
+.order-cta:hover {
+    background: #404BBF;
+
+}
+
+.secondary-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.third-order-title{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.navlink-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #2E2F42;
+}
+
+.contact-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #434455;
+}
+
+.contact-text:hover,
+.contact-text:focus {
+    color: #404BBF;
+}
+
+.navlink-text:hover,
+.navlink-text:focus {
+    color: #404BBF;
+    text-decoration: underline;
+}
+
+.body-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.logonav {
+    font-family: Raleway;
+    color: #4D5AE5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logonav > span {
+    color: #2E2F42;
 }

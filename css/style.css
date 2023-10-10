@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', 'Raleway' sans-serif;
+    font-family: 'Roboto',  sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -25,17 +25,22 @@ a {
     color: #434455;
 }
 
+.hero-section {
+    background-color: #2e2f42;
+}
+
 .main-title {
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
     font-weight: 700;
-    letter-spacing: 0.02;
-    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 1.07;
+    color: #ffffff;
 }
 
 .order-cta {
-
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -56,9 +61,15 @@ a {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
+    text-align: center;
     text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.third-section {
+    background-color: #F4F4FD;
 }
 
 .third-order-title{
@@ -66,8 +77,14 @@ a {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.11;
     letter-spacing: 0.4px;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.bio-info {
+    background-color: #FFFFFF
 }
 
 .navlink-text {
@@ -106,8 +123,8 @@ a {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .logonav {
@@ -116,11 +133,22 @@ a {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 .logonav > span {
-    color: #2E2F42;
+    font-family: Raleway;
+    line-height: 1.17;
+    color: #f4f4fd;
+}
+
+.contacts-info {
+    font-style: normal;
+}
+
+.last-info {
+    background-color: #2e2f42;
+
 }

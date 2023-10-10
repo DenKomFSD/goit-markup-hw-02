@@ -77,7 +77,7 @@ a {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.4px;
     text-align: center;
     color: #2e2f42;
@@ -138,11 +138,6 @@ a {
     text-transform: uppercase;
 }
 
-.logonav > span {
-    font-family: Raleway;
-    line-height: 1.17;
-    color: #f4f4fd;
-}
 
 .contacts-info {
     font-style: normal;
@@ -150,5 +145,10 @@ a {
 
 .last-info {
     background-color: #2e2f42;
+}
 
+.studio {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.17;
+    color: #f4f4fd;
 }

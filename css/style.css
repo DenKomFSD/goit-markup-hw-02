@@ -128,7 +128,7 @@ a {
 }
 
 .logonav {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
     font-size: 18px;
     font-style: normal;
@@ -148,13 +148,13 @@ a {
 }
 
 .studio-footer {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.17;
     color: #f4f4fd;
 }
 
 .studio {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.17;
     color: #2e2f42;
 }
